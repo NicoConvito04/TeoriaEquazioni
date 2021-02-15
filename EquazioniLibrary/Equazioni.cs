@@ -9,7 +9,7 @@ namespace EquazioniLibrary
             bool risposta = false;
 
 
-
+            
             return risposta;
         }
     }
