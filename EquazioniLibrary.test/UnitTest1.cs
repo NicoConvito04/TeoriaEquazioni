@@ -24,5 +24,16 @@ namespace EquazioniLibrary.test
             bool risposta_effettiva = Equazioni.IsInconsisted(a, b);
             Assert.AreEqual(risposta_aspettata, risposta_effettiva);
         }
+
+
+        [TestMethod]
+        public void EquazioneSecondoGrado()
+        {
+            double a = 0;
+            bool risposta_aspettata = true;
+            bool risposta_effettiva = Equazioni.IsDegree2(a);
+            Assert.AreEqual(risposta_aspettata, risposta_effettiva);
+
+        }
     }
 }
